@@ -9,10 +9,13 @@ app.get('/', (req,res) => {
     res.send("Hello Looser");
 });
 
-app.get('/', (req,res) => {
+app.get('/looser', (req,res) => {
     res.json({message: "Looser from jenkins."});
 });
 
+app.get('/kevin',(req,res) => {
+    res.json({message: "setfy"});
+});
 
 app.listen(PORT, () => {
     console.log(`app running on port ${PORT}`);
