@@ -10,7 +10,7 @@ app.get('/', (req,res) => {
 });
 
 app.get('/looser', (req,res) => {
-    res.json({message: "Looser from jenkins."});
+    res.json({message: "Looser from Jenkins !"});
 });
 
 app.get('/kevin',(req,res) => {
