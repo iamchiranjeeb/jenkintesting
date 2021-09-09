@@ -9,6 +9,7 @@ app.get('/', (req,res) => {
     res.send("Hello Looser");
 });
 
+// auto build in jenkins
 app.get('/looser', (req,res) => {
     res.json({message: "Looser from Jenkins !"});
 });
